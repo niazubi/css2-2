@@ -1,0 +1,269 @@
+nav {
+    align-items: center;
+    padding: 12px 80px;
+    justify-content: center;
+    align-items: center;
+
+    width: 980px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+#about {
+    padding-left: 80px;
+    color: #FF5DA3;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#offer {
+    padding-left: 20px;
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#content {
+    padding-left: 20px;
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#help {
+    padding-left: 20px;
+    color: #323232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#contact {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    width: 105px;
+    height: 35px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #00AC25;
+    margin-left: 80px;
+
+}
+
+#main {
+    margin-top: 100px;
+    display: flex;
+    width: 1316px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#header {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#pink {
+    color: #FF5DA3;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#text {
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: "IBM Plex Sans KR";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#enjoy {
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: "Instrument Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#unlock {
+    width: 716px;
+    color: #6941C6;
+    text-align: center;
+    font-family: "Hind Vadodara";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+#green {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #00AC25;
+}
+
+footer {
+    display: flex;
+
+    padding: var(--spacing-6xl, 48px) 0px;
+    flex-direction: column;
+    align-items:center;
+    gap: var(--spacing-7xl, 64px);
+    background: var(--Colors-Background-bg-brand-section, #53389E);
+    margin-top: 200px;
+    width: 1920px;
+}
+
+#logo2 {
+    display: flex;
+    width: 160px;
+
+}
+
+li {
+    display: inline;
+    gap: 4px;
+}
+
+ul {
+    display: inline;
+}
+
+#overview {
+    margin-left: 32px;
+    color: var(--Component-colors-Components-Footers-footer-button-fg, #E9D7FE);
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+
+}
+
+#features {
+    margin-left: 4px;
+    color: var(--Component-colors-Components-Footers-footer-button-fg, #E9D7FE);
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+
+
+}
+
+#pricing {
+    margin-left: 4px;
+    color: var(--Component-colors-Components-Footers-footer-button-fg, #E9D7FE);
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+
+}
+
+#careers {
+    margin-left: 4px;
+    color: var(--Component-colors-Components-Footers-footer-button-fg, #E9D7FE);
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+
+}
+
+#help2 {
+    margin-left: 8px;
+    color: var(--Component-colors-Components-Footers-footer-button-fg, #E9D7FE);
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+
+}
+
+#privacy {
+    margin-left: 4px;
+    display: inline;
+    color: var(--Component-colors-Components-Footers-footer-button-fg, #E9D7FE);
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+
+
+}
+
+#copyright {
+    margin-left: 32px;
+    width: 160px;
+    color: var(--Colors-Text-text-quaternary_on-brand, #D6BBFB);
+    text-align: right;
+    font-family: var(--Font-family-font-family-body, Inter);
+    font-size: var(--Font-size-text-md, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--Line-height-text-md, 24px);
+}
+
